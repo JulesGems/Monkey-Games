@@ -42,7 +42,7 @@ function setup() {
 
 function draw() {
   background(200);
-  rH=Math.round(random(50, 200))
+  rH=Math.round(random(100, 220))
   line(0, 343, 800, 343);
   if(gameState===PLAY){
   if(keyDown("space")&&monkey.y>308&&gameState===PLAY){
